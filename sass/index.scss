@@ -1,0 +1,787 @@
+// Colors
+$purple: #55286d;
+$pink: #ed1c5e;
+$lightPink: #a84d78;
+
+// Fonts
+// Brandon Grotesque
+@font-face {
+	font-family: "brandon-black";
+	src: url("../fonts/brandon-black.otf") format("opentype");
+}
+@font-face {
+	font-family: "brandon-bold";
+	src: url("../fonts/brandon-bold.otf") format("opentype");
+}
+@font-face {
+	font-family: "brandon-medium";
+	src: url("../fonts/brandon-medium.otf") format("opentype");
+}
+@font-face {
+	font-family: "brandon-regular";
+	src: url("../fonts/brandon-medium.otf") format("opentype");
+}
+@font-face {
+	font-family: "brandon-regular-italic";
+	src: url("../fonts/brandon-regular-italic.otf") format("opentype");
+}
+
+// Text
+.ta-center {
+	text-align: center;
+}
+
+// Width
+.w-5 {
+	width: 5%;
+}
+.w-10 {
+	width: 10%;
+}
+.w-12 {
+	width: 12%;
+}
+.w-15 {
+	width: 15%;
+}
+.w-20 {
+	width: 20%;
+}
+.w-25 {
+	width: 25%;
+}
+.w-30 {
+	width: 30%;
+}
+.w-35 {
+	width: 35%;
+}
+.w-38 {
+	width: 38%;
+}
+.w-40 {
+	width: 40%;
+}
+.w-45 {
+	width: 45%;
+}
+.w-50 {
+	width: 50%;
+}
+.w-55 {
+	width: 55%;
+}
+.w-40 {
+	width: 40%;
+}
+.w-60 {
+	width: 60%;
+}
+.w-70 {
+	width: 70%;
+}
+.w-80 {
+	width: 80%;
+}
+
+// Grid
+.row {
+	display: inline-flex;
+	width: 100%;
+}
+
+// Components
+.reg-btn1 {
+	font-family: "brandon-black";
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	background: #f90d58;
+	padding: 1em 3em;
+	border: 0px;
+	border-radius: 10px;
+	margin: 0px auto;
+	cursor: pointer;
+	text-decoration: none;
+}
+.reg-btn2 {
+	font-family: "brandon-black";
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	background: #f90d58;
+	padding: 1em 3em;
+	border: 0px;
+	border-radius: 10px;
+	cursor: pointer;
+	height: fit-content;
+	margin-left: 2em;
+	text-decoration: none;
+}
+.reg-btn3 {
+	font-family: "brandon-black";
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	background: #f90d58;
+	padding: 1em 3em;
+	border: 0px;
+	border-radius: 10px;
+	cursor: pointer;
+	height: fit-content;
+	text-decoration: none;
+	display: block;
+	width: fit-content;
+    margin: 0px auto;
+    margin-top: 3em;
+}
+
+// Site
+.nav-section {
+	background: #5c124a;
+	padding-top: 2%;
+	padding-bottom: 2%;
+
+	img {
+		width: 100%;
+	}
+}
+
+// Banner section
+.banner-section {
+	background: url("../images/bg.jpg");
+	z-index: 4999;
+	position: relative;
+
+	h1 {
+		font-family: "brandon-black";
+		font-size: 6em;
+		text-transform: uppercase;
+		color: #fff;
+		margin-top: 1.5em;
+		margin-bottom: 0.3em;
+		border-bottom: 14px solid $pink;
+	}
+	p {
+		font-family: "brandon-medium";
+		font-size: 1.6em;
+		color: #fff;
+	}
+	h4 {
+		font-family: "brandon-bold";
+		font-size: 2.1em;
+		font-weight: 100;
+		color: #fff;
+		padding-bottom: 2em;
+	}
+	.speakerCol {
+		img {
+			width: 100%;
+			margin-top: 2em;
+			z-index: 5000;
+		}
+	}
+}
+// end Banner section
+
+// Video section
+.video-section {
+	background: #fff;
+	z-index: 5001;
+	position: relative;
+	padding-top: 6em;
+	margin-top: -3em;
+
+	iframe {
+		width: 70%;
+		height: 202px;
+		border: 13px solid #fff;
+		-webkit-box-shadow: -3px 4px 33px 13px rgba(230,230,230,1);
+		-moz-box-shadow: -3px 4px 33px 13px rgba(230,230,230,1);
+		box-shadow: -3px 4px 33px 13px rgba(230,230,230,1);
+	}
+	p {
+		font-family: "brandon-regular";
+		font-size: 1.4em;
+    	font-weight: 100;
+    	line-height: 1.3em;
+		color: #7f7f7f;
+		margin-top: 0.5em;
+	}
+	.btnRow {
+		padding-top: 3em;
+		padding-bottom: 3em;
+	}
+}
+// end Video section
+
+// What to expect section
+.what-to-exp-section {
+	background: #f3f3f3;
+	padding-bottom: 6em;
+
+	h2 {
+		font-family: "brandon-black";
+		font-size: 2.4em;
+		color: $purple;
+		text-transform: uppercase;
+		text-align: center;
+		padding-top: 2.5em;
+		padding-bottom: 0.25em;
+		margin-bottom: 0em;
+	}
+	ul {
+		display: inline-flex;
+		list-style-type: none;
+		padding-left: 0em;
+
+		li {
+			background: #fff;
+			width: 33.3%;
+			padding-left: 2em;
+			padding-right: 2em;
+		}
+		li:not(:first-child) {
+			margin-left: 4em;
+		}
+	}
+	img {
+		width: 60px;
+		height: 60px;
+	}
+	h4 {
+		font-family: "brandon-black";
+		font-size: 1.7em;
+		color: $purple;
+		margin-top: 0em;
+		text-align: center;
+		text-transform: capitalize;
+	}
+	p {
+		font-family: "brandon-regular";
+		color: #7e7e7e;
+		line-height: 1.5;
+		text-align: center;
+	}
+	.what-to-exp-head-cover {
+		width: fit-content;
+		border-bottom: 8px solid $pink;
+		margin: 0px auto;
+		margin-bottom: 4em;
+	}
+	.imageCover {
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
+}
+// end What to expect section
+
+// Quote section
+.quote-section {
+	background: url("../images/quote-bg.jpg");
+	background-size: cover;
+	background-repeat: none;
+	text-align: center;
+	padding-top: 38vh;
+	padding-bottom: 38vh;
+
+	h3 {
+		font-family: "brandon-bold";
+		font-size: 2.7em;
+		// color: #d84875;
+		color: darken($pink, 8%);
+		margin-top: 0em;
+	}
+	.content-wrap {
+		display: flex; 
+		flex-direction: row; 
+		justify-content: center;
+	}
+}
+// end Quote section
+
+// Quote2 section
+.quote2-section {
+	background: $lightPink;
+	text-align: center;
+	padding-top: 4em;
+	padding-bottom: 8em;
+
+	h4 {
+		font-family: "brandon-regular-italic";
+		font-size: 2.2em;
+		line-height: 1.7;
+		color: #fff;
+	}
+	h5 {
+		font-family: "brandon-medium";
+		font-size: 1.2em;
+		color: #fff;
+	}
+}
+// end Quote2 section
+
+// Meet the speaker
+.meet-the-speaker-section {
+	background: url("../images/meet-the-speakers-bg.jpg");
+	background-size: cover;
+	padding-top: 5em;
+	padding-bottom: 5.5em;
+
+	h3 {
+		font-family: "brandon-medium";
+		font-size: 3em;
+		letter-spacing: 1px;
+		color: #fff;
+	}
+	h4 {
+		font-family: "brandon-medium";
+		font-size: 2em;
+		color: #fff;
+		margin-top: 2.5em;
+		letter-spacing: 1px;
+	}
+	p {
+		font-family: "brandon-regular";
+		font-size: 1.2em;
+		color: #fff;
+	}
+	ul {
+		padding-left: 1em;
+		padding-bottom: 0em;
+	}
+	li {
+		list-style: none;
+		font-family: "brandon-medium";
+		font-size: 1.2em;
+		color: #fff;
+		margin-top: 2em;
+
+		&::before {
+			content: "\2022";
+			color: #fff;
+			display: inline-block;
+			margin-left: -1em;
+		}
+	}
+	.swa-img {
+		width: 100%;
+		margin-top: 3.5em;
+	}
+	.media-img {
+		width: 80%;
+		margin-top: 2.5em;
+	}
+	.slr-img {
+		width: 85%;
+		margin-top: 3em;
+	}
+	.media-logos-slr {
+		width: 58%;
+		margin: 0px auto;
+		margin-top: 2em;
+		margin-left: 15%;
+	}
+	.alumniCol {
+		h4 {
+			margin-top: 2em;
+			margin-bottom: 0.9em;
+		}
+		p {
+			margin-bottom: 0em;
+		}
+	}
+}
+// end Meet the speaker
+
+// Program details section
+.program-details-section {
+	background: #f4f6f5;
+	padding-bottom: 2em;
+
+	h2 {
+		font-family: "brandon-black";
+		font-size: 2.4em;
+		color: $purple;
+		text-transform: uppercase;
+		text-align: center;
+		padding-top: 2.5em;
+		padding-bottom: 0.25em;
+		margin-bottom: 0em;
+	}
+	p {
+		color: #898b8a;
+	}
+	li {
+		color: #898b8a;
+	}
+	.program-details-head-cover {
+		width: fit-content;
+		border-bottom: 8px solid $pink;
+		margin: 0px auto;
+		margin-bottom: 4em;
+	}
+	.day-list {
+		display: inline-flex;
+		list-style: none;
+		padding-left: 0em;
+		width: 100%;
+
+		li {
+			font-family: "brandon-regular";
+			width: 24%;
+		}
+		li:not(:first-child) {
+			padding-left: 0em;
+			width: 38%;
+		}
+	}
+	.timing-list {
+		padding-left: 0em;
+
+		li {
+			list-style: none;
+			width: 100%;
+		}
+		li:not(:first-child) {
+			padding-left: 0em;
+			margin-top: 0.5em;
+			width: 100%;
+		}
+	}
+	.program-list {
+		padding-left: 0em;
+
+		li {
+			list-style: none;
+			width: 100%;
+		}
+		li:not(:first-child) {
+			padding-left: 0em;
+			margin-top: 0.5em;
+			width: 100%;
+		}
+	}
+	.ist-txt {
+		font-family: "brandon-regular";
+		font-size: 1.2em;
+		margin-top: 3em;
+	}
+	.watch-later-txt {
+		font-family: "brandon-medium";
+		font-size: 1.2em;
+		margin-bottom: 3em;
+	}
+}
+// end Program details section
+
+// Footer section
+.footer-section {
+	background: #531446;
+	padding-top: 6em;
+	padding-bottom: 4em;
+
+	img {
+		width: 30%;
+	}
+	h5 {
+		font-family: "brandon-black";
+		color: #fff;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		margin-top: 0em;
+		margin-bottom: 0.2em;
+	}
+	p {
+		font-family: "brandon-regular";
+		color: #fff;
+		margin-top: 0.3em;
+    	margin-bottom: 1.3em;
+	}
+	.legal-txt {
+		margin-top: 7em;
+
+		a {
+			color: $lightPink;
+			text-decoration: none;
+		}
+	}
+}
+// end Footer section
+
+
+// Mobile phones
+@media only screen and (max-width: 768px) {
+
+	// Width
+	.m-w-100 {
+		width: 100%;
+	}
+	.m-d-none {
+		display: none;
+	}
+
+	// Text
+	.m-ta-center {
+		text-align: center;
+	}
+
+	// Grid
+	.row {
+		display: flex;
+		flex-direction: column;
+	}
+
+	// Components
+	.reg-btn1, .reg-btn2, .reg-btn3 {
+		font-size: 1.2em;
+	}
+
+	// Nav section	
+	.logoCol {
+		text-align: center;
+		padding-top: 1em;
+    	padding-bottom: 1em;
+
+		img {
+			width: 50%;
+		}
+	}
+
+	// Banner section
+	.banner-section {
+		padding-left: 2em;
+		padding-right: 2em;
+
+		h1 {
+			font-size: 3.9em;
+			margin-top: 1em;
+		}
+		h4 {
+			font-size: 1.5em;
+			padding-bottom: 0em;
+    		margin-bottom: 0em;
+		}
+		p {
+			font-size: 1.4em;
+		}
+	}
+
+	.video-section {
+		text-align: center;
+
+		iframe {
+			width: 85%;
+    		height: 181px;
+		}
+		p {
+			padding-left: 1.5em;
+    		padding-right: 1.5em;
+    		margin-top: 1.5em;
+		}
+		.btnRow {
+			padding-top: 0em;
+		}
+	}
+
+	// What to expect section
+	.what-to-exp-section {
+		ul {
+			display: flex;
+			flex-direction: column;
+
+			li {
+				width: 70%;
+				margin: 0px auto;
+				margin-bottom: 2em;
+				text-align: center;
+
+				&:not(:first-child) {
+					margin: 0px auto;
+					margin-bottom: 2em;
+				}
+			}
+		}
+	}
+	// end What to expection section
+
+	// Quote section
+	.quote-section {
+		padding-top: 10vh;
+    	padding-bottom: 10vh;
+    	padding-left: 1em;
+    	padding-right: 1em;
+
+		a {
+			margin-left: 0em;
+			width: fit-content;
+			margin: 0px auto;
+		}
+		.content-wrap {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+	// end Quote section
+
+	// Meet the speaker section
+	.meet-the-speaker-section {
+		padding-left: 2em;
+		padding-right: 2em;
+
+		h3 {
+			font-size: 2em;
+		}
+		h4 {
+    		font-size: 1.5em;
+    		margin-top: 1em;
+		}
+		.swa-img {
+			width: 90%;
+    		margin-top: 0em;
+		}
+		.speakerRow {
+			flex-direction: column-reverse;
+		}
+		.speakerRowSlr {
+			flex-directon: column;
+		}
+		.slr-img-cover {
+			text-align: center;
+
+			.slr-img {
+				width: 90%;
+			}
+			.slr-profile-img {
+				margin-top: 6em;
+			}
+		}
+		.slr-media-img {
+			width: 65%;
+			margin-top: 1em;
+		}
+		.slr-heading {
+			margin-top: 2em;
+		}
+		.alumniCol {
+			h4 {
+				margin-top: 3em;
+			}
+		}
+	}
+	// end Meet the speaker section
+
+	.program-details-section {
+		.day-list {
+			// To fix the same line issue
+			display: none;
+			// display: block;
+			margin-bottom: 4.2em;
+			padding-bottom: 6em;
+
+			li:not(:first-child) {
+				width: 50%;
+			}
+			.date-li {
+				padding-left: 2em;
+				padding-bottom: 1em;
+				width: 80%;
+				font-family: "brandon-bold";
+				color: #000;
+			}
+			.time-li {
+				float: left;
+				width: 50%;
+				padding-left: 2em;
+				padding-right: 0em;
+			}
+			.program-li {
+				float: right;
+				width: 50%;
+				padding-left: 0em;
+			}
+		}
+		.program-list {
+			li:not(:first-child) {
+				width: 100%;
+			}
+		}
+		.timing-list {
+			padding-left: 2em;
+
+			li:not(:first-child) {
+				width: 100%;
+			}
+		}
+		.ist-txt {
+			padding-left: 2em;
+		}
+		.watch-later-txt {
+			font-size: initial;
+			padding-left: 2.4em;
+    		padding-right: 2em;
+		}
+	}
+
+	// Mobile program details
+	.m-program-details-wrap {
+		font-family: "brandon-regular";
+    	padding-left: 8%;
+    	padding-right: 0%;
+
+    	h4 {
+    		margin-top: 2em;
+    		margin-bottom: 0.2em;
+    	}
+		table {
+			border-collapse: separate;
+			border-spacing: 0 0.4em;
+		}
+		tr {
+			color: #7f8180;
+			margin-top: 2em;
+		}
+		.time-td {
+			width: 45%;
+		}
+		.program-td {
+			width: 55%;
+		}
+	}
+
+	// Quote 2
+	.quote2-section {
+		padding-top: 2em;
+		padding-bottom: 4em;
+
+		h4 {
+			font-size: 1.7em;
+			padding-left: 1.5em;
+    		padding-right: 1.5em;
+		}
+	}
+
+	.footer-section {
+		img {
+			width: 60%;
+			margin-bottom: 2em;
+		}
+		h5 {
+			padding-left: 3em;
+		}
+		p {
+			padding-left: 2.4em;
+		}
+		.legal-txt {
+			margin-top: 2em;
+		}
+	}
+
+}
+
+// Desktops
+@media only screen and (min-width: 768px) {
+	.d-d-none {
+		display: none;
+	}
+}

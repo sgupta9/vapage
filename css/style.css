@@ -1,0 +1,716 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "brandon-black";
+  src: url("../fonts/brandon-black.otf") format("opentype");
+}
+@font-face {
+  font-family: "brandon-bold";
+  src: url("../fonts/brandon-bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "brandon-medium";
+  src: url("../fonts/brandon-medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "brandon-regular";
+  src: url("../fonts/brandon-medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "brandon-regular-italic";
+  src: url("../fonts/brandon-regular-italic.otf") format("opentype");
+}
+.ta-center {
+  text-align: center;
+}
+
+.w-5 {
+  width: 5%;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.w-12 {
+  width: 12%;
+}
+
+.w-15 {
+  width: 15%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.w-38 {
+  width: 38%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-45 {
+  width: 45%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-55 {
+  width: 55%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.row {
+  display: inline-flex;
+  width: 100%;
+}
+
+.reg-btn1 {
+  font-family: "brandon-black";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  background: #f90d58;
+  padding: 1em 3em;
+  border: 0px;
+  border-radius: 10px;
+  margin: 0px auto;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.reg-btn2 {
+  font-family: "brandon-black";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  background: #f90d58;
+  padding: 1em 3em;
+  border: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  height: fit-content;
+  margin-left: 2em;
+  text-decoration: none;
+}
+
+.reg-btn3 {
+  font-family: "brandon-black";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  background: #f90d58;
+  padding: 1em 3em;
+  border: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  height: fit-content;
+  text-decoration: none;
+  display: block;
+  width: fit-content;
+  margin: 0px auto;
+  margin-top: 3em;
+}
+
+.nav-section {
+  background: #5c124a;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.nav-section img {
+  width: 100%;
+}
+
+.banner-section {
+  background: url("../images/bg.jpg");
+  z-index: 4999;
+  position: relative;
+}
+.banner-section h1 {
+  font-family: "brandon-black";
+  font-size: 6em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 1.5em;
+  margin-bottom: 0.3em;
+  border-bottom: 14px solid #ed1c5e;
+}
+.banner-section p {
+  font-family: "brandon-medium";
+  font-size: 1.6em;
+  color: #fff;
+}
+.banner-section h4 {
+  font-family: "brandon-bold";
+  font-size: 2.1em;
+  font-weight: 100;
+  color: #fff;
+  padding-bottom: 2em;
+}
+.banner-section .speakerCol img {
+  width: 100%;
+  margin-top: 2em;
+  z-index: 5000;
+}
+
+.video-section {
+  background: #fff;
+  z-index: 5001;
+  position: relative;
+  padding-top: 6em;
+  margin-top: -3em;
+}
+.video-section iframe {
+  width: 70%;
+  height: 202px;
+  border: 13px solid #fff;
+  -webkit-box-shadow: -3px 4px 33px 13px #e6e6e6;
+  -moz-box-shadow: -3px 4px 33px 13px #e6e6e6;
+  box-shadow: -3px 4px 33px 13px #e6e6e6;
+}
+.video-section p {
+  font-family: "brandon-regular";
+  font-size: 1.4em;
+  font-weight: 100;
+  line-height: 1.3em;
+  color: #7f7f7f;
+  margin-top: 0.5em;
+}
+.video-section .btnRow {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.what-to-exp-section {
+  background: #f3f3f3;
+  padding-bottom: 6em;
+}
+.what-to-exp-section h2 {
+  font-family: "brandon-black";
+  font-size: 2.4em;
+  color: #55286d;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 2.5em;
+  padding-bottom: 0.25em;
+  margin-bottom: 0em;
+}
+.what-to-exp-section ul {
+  display: inline-flex;
+  list-style-type: none;
+  padding-left: 0em;
+}
+.what-to-exp-section ul li {
+  background: #fff;
+  width: 33.3%;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.what-to-exp-section ul li:not(:first-child) {
+  margin-left: 4em;
+}
+.what-to-exp-section img {
+  width: 60px;
+  height: 60px;
+}
+.what-to-exp-section h4 {
+  font-family: "brandon-black";
+  font-size: 1.7em;
+  color: #55286d;
+  margin-top: 0em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.what-to-exp-section p {
+  font-family: "brandon-regular";
+  color: #7e7e7e;
+  line-height: 1.5;
+  text-align: center;
+}
+.what-to-exp-section .what-to-exp-head-cover {
+  width: fit-content;
+  border-bottom: 8px solid #ed1c5e;
+  margin: 0px auto;
+  margin-bottom: 4em;
+}
+.what-to-exp-section .imageCover {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.quote-section {
+  background: url("../images/quote-bg.jpg");
+  background-size: cover;
+  background-repeat: none;
+  text-align: center;
+  padding-top: 38vh;
+  padding-bottom: 38vh;
+}
+.quote-section h3 {
+  font-family: "brandon-bold";
+  font-size: 2.7em;
+  color: #d0104d;
+  margin-top: 0em;
+}
+.quote-section .content-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.quote2-section {
+  background: #a84d78;
+  text-align: center;
+  padding-top: 4em;
+  padding-bottom: 8em;
+}
+.quote2-section h4 {
+  font-family: "brandon-regular-italic";
+  font-size: 2.2em;
+  line-height: 1.7;
+  color: #fff;
+}
+.quote2-section h5 {
+  font-family: "brandon-medium";
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.meet-the-speaker-section {
+  background: url("../images/meet-the-speakers-bg.jpg");
+  background-size: cover;
+  padding-top: 5em;
+  padding-bottom: 5.5em;
+}
+.meet-the-speaker-section h3 {
+  font-family: "brandon-medium";
+  font-size: 3em;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.meet-the-speaker-section h4 {
+  font-family: "brandon-medium";
+  font-size: 2em;
+  color: #fff;
+  margin-top: 2.5em;
+  letter-spacing: 1px;
+}
+.meet-the-speaker-section p {
+  font-family: "brandon-regular";
+  font-size: 1.2em;
+  color: #fff;
+}
+.meet-the-speaker-section ul {
+  padding-left: 1em;
+  padding-bottom: 0em;
+}
+.meet-the-speaker-section li {
+  list-style: none;
+  font-family: "brandon-medium";
+  font-size: 1.2em;
+  color: #fff;
+  margin-top: 2em;
+}
+.meet-the-speaker-section li::before {
+  content: "•";
+  color: #fff;
+  display: inline-block;
+  margin-left: -1em;
+}
+.meet-the-speaker-section .swa-img {
+  width: 100%;
+  margin-top: 3.5em;
+}
+.meet-the-speaker-section .media-img {
+  width: 80%;
+  margin-top: 2.5em;
+}
+.meet-the-speaker-section .slr-img {
+  width: 85%;
+  margin-top: 3em;
+}
+.meet-the-speaker-section .media-logos-slr {
+  width: 58%;
+  margin: 0px auto;
+  margin-top: 2em;
+  margin-left: 15%;
+}
+.meet-the-speaker-section .alumniCol h4 {
+  margin-top: 2em;
+  margin-bottom: 0.9em;
+}
+.meet-the-speaker-section .alumniCol p {
+  margin-bottom: 0em;
+}
+
+.program-details-section {
+  background: #f4f6f5;
+  padding-bottom: 2em;
+}
+.program-details-section h2 {
+  font-family: "brandon-black";
+  font-size: 2.4em;
+  color: #55286d;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 2.5em;
+  padding-bottom: 0.25em;
+  margin-bottom: 0em;
+}
+.program-details-section p {
+  color: #898b8a;
+}
+.program-details-section li {
+  color: #898b8a;
+}
+.program-details-section .program-details-head-cover {
+  width: fit-content;
+  border-bottom: 8px solid #ed1c5e;
+  margin: 0px auto;
+  margin-bottom: 4em;
+}
+.program-details-section .day-list {
+  display: inline-flex;
+  list-style: none;
+  padding-left: 0em;
+  width: 100%;
+}
+.program-details-section .day-list li {
+  font-family: "brandon-regular";
+  width: 24%;
+}
+.program-details-section .day-list li:not(:first-child) {
+  padding-left: 0em;
+  width: 38%;
+}
+.program-details-section .timing-list {
+  padding-left: 0em;
+}
+.program-details-section .timing-list li {
+  list-style: none;
+  width: 100%;
+}
+.program-details-section .timing-list li:not(:first-child) {
+  padding-left: 0em;
+  margin-top: 0.5em;
+  width: 100%;
+}
+.program-details-section .program-list {
+  padding-left: 0em;
+}
+.program-details-section .program-list li {
+  list-style: none;
+  width: 100%;
+}
+.program-details-section .program-list li:not(:first-child) {
+  padding-left: 0em;
+  margin-top: 0.5em;
+  width: 100%;
+}
+.program-details-section .ist-txt {
+  font-family: "brandon-regular";
+  font-size: 1.2em;
+  margin-top: 3em;
+}
+.program-details-section .watch-later-txt {
+  font-family: "brandon-medium";
+  font-size: 1.2em;
+  margin-bottom: 3em;
+}
+
+.footer-section {
+  background: #531446;
+  padding-top: 6em;
+  padding-bottom: 4em;
+}
+.footer-section img {
+  width: 30%;
+}
+.footer-section h5 {
+  font-family: "brandon-black";
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 0em;
+  margin-bottom: 0.2em;
+}
+.footer-section p {
+  font-family: "brandon-regular";
+  color: #fff;
+  margin-top: 0.3em;
+  margin-bottom: 1.3em;
+}
+.footer-section .legal-txt {
+  margin-top: 7em;
+}
+.footer-section .legal-txt a {
+  color: #a84d78;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .m-w-100 {
+    width: 100%;
+  }
+
+  .m-d-none {
+    display: none;
+  }
+
+  .m-ta-center {
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reg-btn1, .reg-btn2, .reg-btn3 {
+    font-size: 1.2em;
+  }
+
+  .logoCol {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .logoCol img {
+    width: 50%;
+  }
+
+  .banner-section {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .banner-section h1 {
+    font-size: 3.9em;
+    margin-top: 1em;
+  }
+  .banner-section h4 {
+    font-size: 1.5em;
+    padding-bottom: 0em;
+    margin-bottom: 0em;
+  }
+  .banner-section p {
+    font-size: 1.4em;
+  }
+
+  .video-section {
+    text-align: center;
+  }
+  .video-section iframe {
+    width: 85%;
+    height: 181px;
+  }
+  .video-section p {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-top: 1.5em;
+  }
+  .video-section .btnRow {
+    padding-top: 0em;
+  }
+
+  .what-to-exp-section ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .what-to-exp-section ul li {
+    width: 70%;
+    margin: 0px auto;
+    margin-bottom: 2em;
+    text-align: center;
+  }
+  .what-to-exp-section ul li:not(:first-child) {
+    margin: 0px auto;
+    margin-bottom: 2em;
+  }
+
+  .quote-section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .quote-section a {
+    margin-left: 0em;
+    width: fit-content;
+    margin: 0px auto;
+  }
+  .quote-section .content-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .meet-the-speaker-section {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .meet-the-speaker-section h3 {
+    font-size: 2em;
+  }
+  .meet-the-speaker-section h4 {
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+  .meet-the-speaker-section .swa-img {
+    width: 90%;
+    margin-top: 0em;
+  }
+  .meet-the-speaker-section .speakerRow {
+    flex-direction: column-reverse;
+  }
+  .meet-the-speaker-section .speakerRowSlr {
+    flex-directon: column;
+  }
+  .meet-the-speaker-section .slr-img-cover {
+    text-align: center;
+  }
+  .meet-the-speaker-section .slr-img-cover .slr-img {
+    width: 90%;
+  }
+  .meet-the-speaker-section .slr-img-cover .slr-profile-img {
+    margin-top: 6em;
+  }
+  .meet-the-speaker-section .slr-media-img {
+    width: 65%;
+    margin-top: 1em;
+  }
+  .meet-the-speaker-section .slr-heading {
+    margin-top: 2em;
+  }
+  .meet-the-speaker-section .alumniCol h4 {
+    margin-top: 3em;
+  }
+
+  .program-details-section .day-list {
+    display: none;
+    margin-bottom: 4.2em;
+    padding-bottom: 6em;
+  }
+  .program-details-section .day-list li:not(:first-child) {
+    width: 50%;
+  }
+  .program-details-section .day-list .date-li {
+    padding-left: 2em;
+    padding-bottom: 1em;
+    width: 80%;
+    font-family: "brandon-bold";
+    color: #000;
+  }
+  .program-details-section .day-list .time-li {
+    float: left;
+    width: 50%;
+    padding-left: 2em;
+    padding-right: 0em;
+  }
+  .program-details-section .day-list .program-li {
+    float: right;
+    width: 50%;
+    padding-left: 0em;
+  }
+  .program-details-section .program-list li:not(:first-child) {
+    width: 100%;
+  }
+  .program-details-section .timing-list {
+    padding-left: 2em;
+  }
+  .program-details-section .timing-list li:not(:first-child) {
+    width: 100%;
+  }
+  .program-details-section .ist-txt {
+    padding-left: 2em;
+  }
+  .program-details-section .watch-later-txt {
+    font-size: initial;
+    padding-left: 2.4em;
+    padding-right: 2em;
+  }
+
+  .m-program-details-wrap {
+    font-family: "brandon-regular";
+    padding-left: 8%;
+    padding-right: 0%;
+  }
+  .m-program-details-wrap h4 {
+    margin-top: 2em;
+    margin-bottom: 0.2em;
+  }
+  .m-program-details-wrap table {
+    border-collapse: separate;
+    border-spacing: 0 0.4em;
+  }
+  .m-program-details-wrap tr {
+    color: #7f8180;
+    margin-top: 2em;
+  }
+  .m-program-details-wrap .time-td {
+    width: 45%;
+  }
+  .m-program-details-wrap .program-td {
+    width: 55%;
+  }
+
+  .quote2-section {
+    padding-top: 2em;
+    padding-bottom: 4em;
+  }
+  .quote2-section h4 {
+    font-size: 1.7em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+
+  .footer-section img {
+    width: 60%;
+    margin-bottom: 2em;
+  }
+  .footer-section h5 {
+    padding-left: 3em;
+  }
+  .footer-section p {
+    padding-left: 2.4em;
+  }
+  .footer-section .legal-txt {
+    margin-top: 2em;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .d-d-none {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
